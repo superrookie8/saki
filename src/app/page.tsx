@@ -11,7 +11,9 @@ export default function Home() {
 					不足しているようなので情報提供も受け付けています
 				</p>
 				<Link href="https://guide.michelin.com/kr/ko/restaurants/seoul/seoul-restaurants-with-michelin-stars">
-					<p className="text-gray-600">ミシュランレストラン情報を見る</p>
+					<p className="text-gray-600 border border-gray-600 rounded-md p-2 hover:text-gray-900 hover:border-gray-900 transition-colors duration-200">
+						ミシュランレストラン情報を見る
+					</p>
 				</Link>
 			</header>
 
