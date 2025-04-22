@@ -253,8 +253,8 @@ export const restaurants: Restaurant[] = [
 		descriptionJP: "多大浦海水浴場近くのタコサムハプ専門店",
 		images: ["/busan/할매집.jpeg", "/busan/문어삼합.jpeg"],
 		imageDescriptions: {
-			ko: ["다대포해수욕장", "문어삼합"],
-			jp: ["多大浦海水浴場", "タコサムハプ"],
+			ko: ["다대포 할매집", "문어삼합"],
+			jp: ["多大浦ハルメジプ", "タコサムハプ"],
 		},
 		location: "부산광역시 사하구 몰운대1길 55 다대포 할매집",
 		locationJP: "釜山広域市 沙下区 茂雲台1ギル 55 多大浦ハルメジプ",
@@ -263,6 +263,22 @@ export const restaurants: Restaurant[] = [
 	},
 	{
 		id: "13",
+		name: "서울 우래옥",
+		nameJP: "ソウル ウラオク",
+		description: "냉면 맛집",
+		descriptionJP: "冷麺のお店",
+		images: ["/seoul/우래옥전경.jpeg", "/seoul/냉면.jpeg"],
+		imageDescriptions: {
+			ko: ["우래옥 전경", "냉면"],
+			jp: ["ウラオク外観", "冷麺"],
+		},
+		location: "서울 중구 창경궁로 62-29",
+		locationJP: "ソウル市 鐘路区 昌慶宮路 62-29",
+		link: "https://map.naver.com/p/entry/place/11679381?lng=126.9987029&lat=37.5682697&placePath=%2Fhome&entry=plt&searchType=place&c=15.00,0,0,0,dh",
+		city: "seoul",
+	},
+	{
+		id: "14",
 		name: "인천 어딘가",
 		nameJP: "インチョン どこか",
 		description: "인천에는 소희가 있어요",
