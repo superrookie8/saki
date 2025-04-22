@@ -104,10 +104,10 @@ export const restaurants: Restaurant[] = [
 		images: ["/suwon/삼부자갈비.jpeg", "/suwon/삼부자갈비2.png"],
 		imageDescriptions: {
 			ko: ["삼부자갈비", "삼부자갈비집"],
-			jp: ["サンブフーカルビ", "サンブフーカルビ"],
+			jp: ["三父子カルビ", "三父子カルビ"],
 		},
 		location: "경기 수원시 영통구 중부대로 335 1층 삼부자갈비",
-		locationJP: "京畿道 水原市 永東區 中浦大路 335 1F 三浦カルビ",
+		locationJP: "京畿道 水原市 永東區 中浦大路 335 1F 三父子カルビ",
 		link: "https://sambujagalbi.com/menu/",
 		city: "suwon" as const,
 	},
