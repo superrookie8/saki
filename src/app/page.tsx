@@ -7,6 +7,9 @@ export default function Home() {
 			<header className="mb-8 text-center">
 				<h1 className="text-3xl font-bold mb-2">SAKIさんのための情報提供</h1>
 				<p className="text-gray-600">思いついたことを書いてみました..</p>
+				<p className="text-gray-600">
+					不足しているようなので情報提供も受け付けています
+				</p>
 			</header>
 
 			<main className="max-w-4xl mx-auto">

@@ -15,6 +15,10 @@ export interface Restaurant {
 	city: "seoul" | "busan" | "suwon" | "incheon";
 }
 
+// 도시 순서 정의를 먼저 선언
+const cityOrder = ["seoul", "suwon", "busan", "incheon"] as const;
+
+// 도시 순서대로 정렬된 레스토랑 배열
 export const restaurants: Restaurant[] = [
 	{
 		id: "1",
@@ -38,7 +42,7 @@ export const restaurants: Restaurant[] = [
 		location: "서울 종로구 창경궁로 88",
 		locationJP: "ソウル市 鐘路区 昌慶宮路 88",
 		link: "http://www.kwangjangmarket.co.kr/",
-		city: "seoul",
+		city: "seoul" as const,
 	},
 	{
 		id: "2",
@@ -64,7 +68,7 @@ export const restaurants: Restaurant[] = [
 		location: "부산 중구 신창동4가 37-1",
 		locationJP: "釜山市 中区 新昌洞4街 37-1",
 		link: "https://map.naver.com/p/search/%EA%B5%AD%EC%A0%9C%EC%8B%9C%EC%9E%A5%20%EC%9C%A0%EB%B6%80/place/11717699?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp",
-		city: "busan",
+		city: "busan" as const,
 	},
 	{
 		id: "3",
@@ -85,7 +89,7 @@ export const restaurants: Restaurant[] = [
 		locationJP:
 			"釜山広域市 海雲台区 海雲台海辺路 333 海雲台アンソカルビ、予約必須",
 		link: "https://app.catchtable.co.kr/ct/shop/hgh",
-		city: "busan",
+		city: "busan" as const,
 	},
 	{
 		id: "4",
@@ -101,7 +105,7 @@ export const restaurants: Restaurant[] = [
 		location: "경기 수원시 영통구 중부대로 335 1층 삼부자갈비",
 		locationJP: "京畿道 水原市 永東區 中浦大路 335 1F 三浦カルビ",
 		link: "https://sambujagalbi.com/menu/",
-		city: "suwon",
+		city: "suwon" as const,
 	},
 	{
 		id: "5",
@@ -123,7 +127,7 @@ export const restaurants: Restaurant[] = [
 		location: "서울 강남구 선릉로 822 지하 1층",
 		locationJP: "ソウル市 江南区 仙林路 822 地下1階",
 		link: "https://app.catchtable.co.kr/ct/shop/hanmiok_cd",
-		city: "seoul",
+		city: "seoul" as const,
 	},
 	{
 		id: "6",
@@ -139,7 +143,7 @@ export const restaurants: Restaurant[] = [
 		location: "서울 중구 을지로3길 24",
 		locationJP: "ソウル市 中区 乙支路3ギル 24",
 		link: "https://map.naver.com/p/search/%EC%96%B4%EB%B3%B5%EC%9F%81%EB%B0%98/place/11664585?c=15.01,0,0,0,dh&placePath=/home",
-		city: "seoul",
+		city: "seoul" as const,
 	},
 	{
 		id: "7",
@@ -170,7 +174,7 @@ export const restaurants: Restaurant[] = [
 		location: "서울 종로구 사직로 161 경복궁",
 		locationJP: "ソウル市 鐘路区 司街 161 景福宮",
 		link: "https://map.naver.com/p/entry/place/11571707?c=15.00,0,0,0,dh&placePath=/home",
-		city: "seoul",
+		city: "seoul" as const,
 	},
 	{
 		id: "8",
@@ -186,7 +190,7 @@ export const restaurants: Restaurant[] = [
 		location: "서울 종로구 자하문로5길 5 토속촌",
 		locationJP: "ソウル市 鐘路区 自夏門路5ギル 5 トソクチョン",
 		link: "http://www.tosokchon.co.kr/main.php",
-		city: "seoul",
+		city: "seoul" as const,
 	},
 	{
 		id: "9",
@@ -207,7 +211,7 @@ export const restaurants: Restaurant[] = [
 		location: "경기 수원시 팔달구 정조로 825",
 		locationJP: "京畿道 水原市 八達区 正祖路 825",
 		link: "https://map.naver.com/p/search/%EC%88%98%EC%9B%90%20%ED%99%94%EC%84%B1%ED%96%89%EA%B6%81/place/31169145?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp",
-		city: "suwon",
+		city: "suwon" as const,
 	},
 	{
 		id: "10",
@@ -223,7 +227,7 @@ export const restaurants: Restaurant[] = [
 		location: "부산 사하구 하신번영로157번길 39",
 		locationJP: "釜山市 沙下区 下新文路157番地39",
 		link: "https://map.naver.com/p/entry/place/16634562?c=15.00,0,0,0,dh",
-		city: "busan",
+		city: "busan" as const,
 	},
 	{
 		id: "11",
@@ -243,7 +247,7 @@ export const restaurants: Restaurant[] = [
 		location: "부산 사하구 몰운대1길 11",
 		locationJP: "釜山市 沙下区 茂林大路11番地",
 		link: "https://map.naver.com/p/entry/place/16669297?c=15.00,0,0,0,dh&placePath=/home",
-		city: "busan",
+		city: "busan" as const,
 	},
 	{
 		id: "12",
@@ -259,7 +263,7 @@ export const restaurants: Restaurant[] = [
 		location: "부산광역시 사하구 몰운대1길 55 다대포 할매집",
 		locationJP: "釜山広域市 沙下区 茂雲台1ギル 55 多大浦ハルメジプ",
 		link: "https://map.naver.com/p/search/%EB%8B%A4%EB%8C%80%ED%8F%AC%20%ED%95%A0%EB%A7%A4%EC%A7%91/place/1935100363?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp",
-		city: "busan",
+		city: "busan" as const,
 	},
 	{
 		id: "13",
@@ -275,7 +279,7 @@ export const restaurants: Restaurant[] = [
 		location: "서울 중구 창경궁로 62-29",
 		locationJP: "ソウル市 鐘路区 昌慶宮路 62-29",
 		link: "https://map.naver.com/p/entry/place/11679381?lng=126.9987029&lat=37.5682697&placePath=%2Fhome&entry=plt&searchType=place&c=15.00,0,0,0,dh",
-		city: "seoul",
+		city: "seoul" as const,
 	},
 	{
 		id: "14",
@@ -291,7 +295,9 @@ export const restaurants: Restaurant[] = [
 		location: "인천, 소희가 있는 곳",
 		locationJP: "インチェオンにはソヒがいます",
 		link: "https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&ssc=tab.nx.all&query=%EC%9D%B8%EC%B2%9C+%EB%A7%9B%EC%A7%91&oquery=%EC%9D%B8%EC%B2%9C&tqi=jsPvVsqVOsossTDotcZssssstJl-095443&ackey=fok68f4f",
-		city: "incheon",
+		city: "incheon" as const,
 	},
 	// 더 많은 맛집 데이터를 추가할 수 있습니다
-];
+].sort((a, b) => {
+	return cityOrder.indexOf(a.city) - cityOrder.indexOf(b.city);
+});
