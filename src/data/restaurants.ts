@@ -25,7 +25,8 @@ export const restaurants: Restaurant[] = [
 		name: "광장시장",
 		nameJP: "クァンジャン市場",
 		description: "전통 시장에서 즐기는 다양한 한국 음식",
-		descriptionJP: "伝統市場で楽しむ様々な韓国料理",
+		descriptionJP:
+			"伝統市場で楽しむ様々な韓国料理、ビンデトッは肉生地を油で焼いたもので、クァベギはドーナツです。",
 		images: [
 			"/seoul/광장시장.jpeg",
 			"/seoul/순희네빈대떡.jpeg",
@@ -49,7 +50,8 @@ export const restaurants: Restaurant[] = [
 		name: "부산 국제시장",
 		nameJP: "釜山国際市場",
 		description: "부산의 대표적인 전통 시장",
-		descriptionJP: "釜山を代表する伝統市場",
+		descriptionJP:
+			"釜山を代表する伝統市場、様々な食べ物とお店があります。油揚げの中に具材を入れた油揚げ鍋としゃぶしゃぶがおすすめですが、他にも多くの料理があります。",
 		images: [
 			"/busan/국제시장.jpeg",
 			"/busan/생수샤브샤브.jpeg",
@@ -60,7 +62,7 @@ export const restaurants: Restaurant[] = [
 			ko: ["국제시장 전경", "생수샤브샤브", "깡통할매유부전골", "안혜지"],
 			jp: [
 				"国際市場の全景",
-				"生水しゃぶしゃぶ",
+				"生水しゃぶしゃぶ,",
 				"カントンハルメユブチョンゴル",
 				"安惠智選手と一緒なら、ガイドは要らないかも...",
 			],
@@ -75,7 +77,8 @@ export const restaurants: Restaurant[] = [
 		name: "부산 해운대 암소갈비",
 		nameJP: "釜山 海雲台 アンソカルビ",
 		description: "생갈비 맛집",
-		descriptionJP: "生きたカルビのお店",
+		descriptionJP:
+			"生カルビの名店、味付けしていないカルビを生カルビと言います。味付けの味ではなく、お肉本来の味を楽しめます。",
 		images: [
 			"/busan/암소갈비.png",
 			"/busan/암소갈비집.jpeg",
@@ -94,9 +97,10 @@ export const restaurants: Restaurant[] = [
 	{
 		id: "4",
 		name: "수원 삼부자갈비 원천점",
-		nameJP: "水原 三浦カルビ ウォンチョン店",
+		nameJP: "水原 三父子カルビ ウォンチョン店",
 		description: "수원 갈비 맛집",
-		descriptionJP: "水原 カルビのお店",
+		descriptionJP:
+			"水原カルビの名店、チェ・ファジョンさんのYouTubeで見たのですが美味しいそうです。40年の伝統があります。",
 		images: ["/suwon/삼부자갈비.jpeg", "/suwon/삼부자갈비2.png"],
 		imageDescriptions: {
 			ko: ["삼부자갈비", "삼부자갈비집"],
@@ -132,13 +136,14 @@ export const restaurants: Restaurant[] = [
 	{
 		id: "6",
 		name: "서울 남포면옥",
-		nameJP: "ソウル ナンポムンオク",
+		nameJP: "ソウル ナンポミョンオク",
 		description: "북한식 고기전골을 맛볼수 있음. 명동 가까움",
-		descriptionJP: "北朝鮮式の肉チョンゴルが味わえます。明洞に近いです",
+		descriptionJP:
+			"北朝鮮式の肉鍋が味わえます。冷麺もあります。明洞に近いです。明洞に用事があれば立ち寄るのがおすすめです。",
 		images: ["/seoul/남포면옥.jpeg", "/seoul/어복쟁반.jpeg"],
 		imageDescriptions: {
 			ko: ["남포면옥 전경", "어복쟁반"],
-			jp: ["ナンポムメンヨク外観", "アオバショウカンバン"],
+			jp: ["ナンポミョンオク外観", "アオバショウカンバン"],
 		},
 		location: "서울 중구 을지로3길 24",
 		locationJP: "ソウル市 中区 乙支路3ギル 24",
@@ -149,8 +154,10 @@ export const restaurants: Restaurant[] = [
 		id: "7",
 		name: "서울 궁투어",
 		nameJP: "ソウル 宮殿ツアー",
-		description: "서울과 부산의 차이는 궁 입니다.",
-		descriptionJP: "ソウルと釜山の違いは宮殿です。",
+		description:
+			"서울과 부산의 차이는 궁 입니다. 경복궁, 창덕궁, 경희궁, 창경궁, 창경궁 주변에 모두 있어요. 경복궁의 남쪽 정문이 광화문입니다.",
+		descriptionJP:
+			"ソウルと釜山の違いは宮殿です。景福宮、昌徳宮、慶熙宮、昌慶宮がすべて周辺にあります。景福宮の南門が光化門です。",
 		images: [
 			"/seoul/경복궁.jpeg",
 			"/seoul/경복궁2.jpeg",
@@ -181,7 +188,8 @@ export const restaurants: Restaurant[] = [
 		name: "서울 토속촌",
 		nameJP: "ソウル トソクチョン",
 		description: "삼계탕 맛집",
-		descriptionJP: "サムゲタン(参鶏湯)の有名店",
+		descriptionJP:
+			"サムゲタン（参鶏湯）の有名店、鶏を漢方スープでじっくり煮込んで体に良い薬膳スープです。",
 		images: ["/seoul/토속촌.jpeg", "/seoul/삼계탕.jpeg"],
 		imageDescriptions: {
 			ko: ["토속촌 전경", "삼계탕"],
@@ -197,7 +205,8 @@ export const restaurants: Restaurant[] = [
 		name: "수원 화성행궁",
 		nameJP: "水原華城行宮",
 		description: "수원 화성행궁, 통닭거리, 행리단길, 방화수류정 산책",
-		descriptionJP: "水原華城行宮、チメッ通り、ヘンリダンギル、放火水流亭の散策",
+		descriptionJP:
+			"水原華城行宮、チメッ通り(chicken street)、ヘンリダンギル、放火水流亭の散策",
 		images: [
 			"/suwon/화성행궁.jpeg",
 			"/suwon/통닭거리.jpeg",
@@ -216,13 +225,14 @@ export const restaurants: Restaurant[] = [
 	{
 		id: "10",
 		name: "부산 영진국밥",
-		nameJP: "釜山 ヨンジングカムバック",
+		nameJP: "釜山 ヨンジングッパッ",
 		description: "DAY6 성진의 추천 맛집",
-		descriptionJP: "DAY6 성진のおすすめのお店",
+		descriptionJP:
+			"DAY6 ソンジンのおすすめのお店、豚の骨でだしを取り、茹でた肉と一緒に出てくるスープご飯です。",
 		images: ["/busan/영진국밥전경.jpeg", "/busan/영진국밥.jpeg"],
 		imageDescriptions: {
 			ko: ["영진국밥 전경", "누군가의 국밥"],
-			jp: ["ヨンジングカムバック外観", "誰かの国チョンゴル"],
+			jp: ["ヨンジングッパッ外観", "誰かの国チョンゴル"],
 		},
 		location: "부산 사하구 하신번영로157번길 39",
 		locationJP: "釜山市 沙下区 下新文路157番地39",
@@ -234,7 +244,8 @@ export const restaurants: Restaurant[] = [
 		name: "부산 백두산",
 		nameJP: "釜山 白頭山",
 		description: "다대포해수욕장 근처 해물칼국수집",
-		descriptionJP: "多大浦海水浴場近くの海鮮カルグクス専門店",
+		descriptionJP:
+			"多大浦海水浴場近くの海鮮カルグクス専門店、小麦粉を練って太く切って麺を作り、海鮮と一緒にだしで煮込んで食べる料理です。",
 		images: [
 			"/busan/백두산.jpeg",
 			"/busan/칼국수.jpeg",
@@ -254,7 +265,8 @@ export const restaurants: Restaurant[] = [
 		name: "부산 다대포 할매집",
 		nameJP: "釜山 多大浦 ハルメジプ",
 		description: "다대포 해수욕장 근처 문어삼합집",
-		descriptionJP: "多大浦海水浴場近くのタコサムハプ専門店",
+		descriptionJP:
+			"多大浦海水浴場近くのタコサムハプ専門店、3種類の材料を包んで食べる料理をサムハプと言います。",
 		images: ["/busan/할매집.jpeg", "/busan/문어삼합.jpeg"],
 		imageDescriptions: {
 			ko: ["다대포 할매집", "문어삼합"],
@@ -270,7 +282,7 @@ export const restaurants: Restaurant[] = [
 		name: "서울 우래옥",
 		nameJP: "ソウル ウラオク",
 		description: "냉면 맛집",
-		descriptionJP: "冷麺のお店",
+		descriptionJP: "冷麺の名店、平壌式冷麺が人気です。",
 		images: ["/seoul/우래옥전경.jpeg", "/seoul/냉면.jpeg"],
 		imageDescriptions: {
 			ko: ["우래옥 전경", "냉면"],
@@ -286,14 +298,15 @@ export const restaurants: Restaurant[] = [
 		name: "인천 어딘가",
 		nameJP: "インチョン どこか",
 		description: "인천에는 소희가 있어요",
-		descriptionJP: "インチェオンにはソヒがいます",
+		descriptionJP:
+			"インチョンにはソヒがいます。ソヒはカニの塩辛、エビの塩辛、サーモンの塩辛など発酵食品が好きです。",
 		images: ["/incheon/소희1.jpg", "/incheon/소희2.jpg"],
 		imageDescriptions: {
 			ko: ["소희", "소희2"],
 			jp: ["ソヒ", "ソヒ2"],
 		},
 		location: "인천, 소희가 있는 곳",
-		locationJP: "インチェオンにはソヒがいます",
+		locationJP: "インチョンにはソヒがいます",
 		link: "https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&ssc=tab.nx.all&query=%EC%9D%B8%EC%B2%9C+%EB%A7%9B%EC%A7%91&oquery=%EC%9D%B8%EC%B2%9C&tqi=jsPvVsqVOsossTDotcZssssstJl-095443&ackey=fok68f4f",
 		city: "incheon" as const,
 	},
