@@ -266,7 +266,7 @@ export const restaurants: Restaurant[] = [
 		nameJP: "釜山 多大浦 ハルメジプ",
 		description: "다대포 해수욕장 근처 문어삼합집",
 		descriptionJP:
-			"多大浦海水浴場近くのタコサムハプ専門店、3種類の材料を包んで食べる料理をサムハプと言います。",
+			"多大浦海水浴場近くのタコサムハプ専門店、3種類の材料を包んで食べる料理をサムハプと言います。通常、茹でた肉とキムチと海鮮の組み合わせです。",
 		images: ["/busan/할매집.jpeg", "/busan/문어삼합.jpeg"],
 		imageDescriptions: {
 			ko: ["다대포 할매집", "문어삼합"],
