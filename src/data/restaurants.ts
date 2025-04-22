@@ -69,7 +69,7 @@ export const restaurants: Restaurant[] = [
 	{
 		id: "3",
 		name: "부산 해운대 암소갈비",
-		nameJP: "釜山国際市場",
+		nameJP: "釜山 海雲台 アンソカルビ",
 		description: "생갈비 맛집",
 		descriptionJP: "生きたカルビのお店",
 		images: [
@@ -95,8 +95,8 @@ export const restaurants: Restaurant[] = [
 		descriptionJP: "水原 カルビのお店",
 		images: ["/suwon/삼부자갈비.jpeg", "/suwon/삼부자갈비2.png"],
 		imageDescriptions: {
-			ko: ["삼부자갈비", "삼부자갈비집", "생갈비"],
-			jp: ["サンブフーカルビ", "サンブフーカルビ", "生きたカルビ"],
+			ko: ["삼부자갈비", "삼부자갈비집"],
+			jp: ["サンブフーカルビ", "サンブフーカルビ"],
 		},
 		location: "경기 수원시 영통구 중부대로 335 1층 삼부자갈비",
 		locationJP: "京畿道 水原市 永東區 中浦大路 335 1F 三浦カルビ",
@@ -106,7 +106,7 @@ export const restaurants: Restaurant[] = [
 	{
 		id: "5",
 		name: "서울 한미옥",
-		nameJP: "서울 한미옥",
+		nameJP: "ソウル ハンミョク",
 		description:
 			"어서와 한국은 처음이지 라는 프로그램에서 프랑스 친구들이 먹었던 고기",
 		descriptionJP:
@@ -128,7 +128,6 @@ export const restaurants: Restaurant[] = [
 	{
 		id: "6",
 		name: "서울 남포면옥",
-		// ... existing code ...
 		nameJP: "ソウル ナンポムンオク",
 		description: "북한식 고기전골을 맛볼수 있음. 명동 가까움",
 		descriptionJP: "北朝鮮式の肉チョンゴルが味わえます。明洞に近いです",
@@ -145,7 +144,7 @@ export const restaurants: Restaurant[] = [
 	{
 		id: "7",
 		name: "서울 궁투어",
-		nameJP: "서울 궁투어",
+		nameJP: "ソウル 宮殿ツアー",
 		description: "서울과 부산의 차이는 궁 입니다.",
 		descriptionJP: "ソウルと釜山の違いは宮殿です。",
 		images: [
@@ -191,8 +190,46 @@ export const restaurants: Restaurant[] = [
 	},
 	{
 		id: "9",
+		name: "수원 화성행궁",
+		nameJP: "水原華城行宮",
+		description: "수원 화성행궁, 통닭거리, 행리단길, 방화수류정 산책",
+		descriptionJP: "水原華城行宮、チメッ通り、ヘンリダンギル、放火水流亭の散策",
+		images: [
+			"/suwon/화성행궁.jpeg",
+			"/suwon/통닭거리.jpeg",
+			"/suwon/행리단길.jpeg",
+			"/suwon/방화수류정.jpeg",
+		],
+		imageDescriptions: {
+			ko: ["화성행궁", "통닭거리", "행리단길", "방화수류정"],
+			jp: ["華城行宮", "チメッ通り", "ヘンリダンギル", "放火水流亭"],
+		},
+		location: "경기 수원시 팔달구 정조로 825",
+		locationJP: "京畿道 水原市 八達区 正祖路 825",
+		link: "https://map.naver.com/p/search/%EC%88%98%EC%9B%90%20%ED%99%94%EC%84%B1%ED%96%89%EA%B6%81/place/31169145?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp",
+		city: "suwon",
+	},
+	{
+		id: "10",
+		name: "부산 영진국밥",
+		nameJP: "釜山 ヨンジングカムバック",
+		description: "DAY6 성진의 추천 맛집",
+		descriptionJP: "DAY6 성진のおすすめのお店",
+		images: ["/busan/영진국밥전경.jpeg", "/busan/영진국밥.jpeg"],
+		imageDescriptions: {
+			ko: ["영진국밥 전경", "누군가의 국밥"],
+			jp: ["ヨンジングカムバック外観", "誰かの国チョンゴル"],
+		},
+		location: "부산 사하구 하신번영로157번길 39",
+		locationJP: "釜山市 沙下区 下新文路157番地39",
+		link: "https://map.naver.com/p/entry/place/16634562?c=15.00,0,0,0,dh",
+		city: "busan",
+	},
+
+	{
+		id: "11",
 		name: "인천 어딘가",
-		nameJP: "ソウル ホンダ",
+		nameJP: "インチョン どこか",
 		description: "인천에는 소희가 있어요",
 		descriptionJP: "インチェオンにはソヒがいます",
 		images: ["/incheon/소희1.jpg", "/incheon/소희2.jpg"],
