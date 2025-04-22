@@ -1,6 +1,6 @@
 import { restaurants } from "@/data/restaurants";
 import RestaurantCard from "@/components/RestaurantCard";
-
+import Link from "next/link";
 export default function Home() {
 	return (
 		<div className="min-h-screen p-4 sm:p-8">
@@ -10,6 +10,9 @@ export default function Home() {
 				<p className="text-gray-600">
 					不足しているようなので情報提供も受け付けています
 				</p>
+				<Link href="https://guide.michelin.com/kr/ko/restaurants/seoul/seoul-restaurants-with-michelin-stars">
+					<p className="text-gray-600">ミシュランレストラン情報を見る</p>
+				</Link>
 			</header>
 
 			<main className="max-w-4xl mx-auto">

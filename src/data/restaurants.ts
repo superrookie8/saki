@@ -310,6 +310,140 @@ export const restaurants: Restaurant[] = [
 		link: "https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&ssc=tab.nx.all&query=%EC%9D%B8%EC%B2%9C+%EB%A7%9B%EC%A7%91&oquery=%EC%9D%B8%EC%B2%9C&tqi=jsPvVsqVOsossTDotcZssssstJl-095443&ackey=fok68f4f",
 		city: "incheon" as const,
 	},
+	{
+		id: "15",
+		name: "서울 3대족발",
+		nameJP: "ソウル 3大チョッパル",
+		description:
+			"족발(돼지 다리살을 한방육수에 푹 삶은 것)로 유명한 곳은 만족오향족발, 성수족발, 영동족발 입니다. 프랜차이즈로 확장한 곳들도 있습니다.",
+		descriptionJP:
+			"チョッパル（豚足を漢方スープでじっくり煮込んだもの）で有名な店は、マンジョクオヒャンチョッパル、ソンスチョッパル、ヨンドンチョッパルです。フランチャイズ展開している店舗もあります。",
+		images: [
+			"/seoul/만족오향족발시청점.jpeg",
+			"/seoul/성수족발.jpeg",
+			"/seoul/영동족발.jpeg",
+		],
+		imageDescriptions: {
+			ko: ["미쉐린가이드에 소개된 만족오향족발 시청점", "성수족발", "영동족발"],
+			jp: [
+				"ミシュランガイドで紹介されたマンジョクオヒャンチョッパル市庁店",
+				"ソンスチョッパル",
+				"ヨンドンチョッパル",
+			],
+		},
+		location: "서울 중구 서소문로 134-7",
+		locationJP: "ソウル市 中区 西小門路 134-7",
+		link: "https://map.naver.com/p/search/%EB%A7%8C%EC%A1%B1%EC%98%A4%ED%96%A5%EC%A1%B1%EB%B0%9C/place/11718044?c=13.00,0,0,0,dh&placePath=%3Fentry%253Dbmp",
+		city: "seoul" as const,
+	},
+	{
+		id: "16",
+		name: "서울 한남동한방통닭",
+		nameJP: "ソウル ハンナムドン 漢方タッカン",
+		description:
+			"개그우먼 이영자님이 감기에 걸렸을때 먹으면 나을것 같은 맛이라고 찬사한 적이 있는 치킨집. 같이 먹는 김치가 정말 맛있습니다.",
+		descriptionJP:
+			"お笑い芸人のイ・ヨンジャさんが「風邪を引いた時に食べると治りそうな味」と絶賛したチキン店です。一緒に出てくるキムチも本当に美味しいです。",
+		images: [
+			"/seoul/한남동한방통닭.jpeg",
+			"/seoul/한방통닭1.jpeg",
+			"/seoul/한방통닭2.jpeg",
+		],
+		imageDescriptions: {
+			ko: ["한남동한방통닭", "한방통닭1", "한방통닭2"],
+			jp: ["漢方タッカン店舗外観", "漢方タッカン1", "漢方タッカン2"],
+		},
+		location: "서울 용산구 대사관로34길 12 1, 2층",
+		locationJP: "ソウル市 龍山区 大使館路34ギル 12 1, 2階",
+		link: "https://map.naver.com/p/search/%ED%95%9C%EB%B0%A9%ED%86%B5%EB%8B%AD/place/32794391?placePath=?entry=pll&from=nx&fromNxList=true&searchType=place&c=15.00,0,0,0,dh",
+		city: "seoul" as const,
+	},
+	{
+		id: "17",
+		name: "서울 배나무골오리집 양재본점",
+		nameJP: "ソウル ペナムゴルアヒル料理店 ヤンジェ本店",
+		description: "구워먹는 고기가 지칠때, 코스로 맛보는 고급 오리요리집",
+		descriptionJP: "焼き肉に飽きた時は、コースで楽しむ高級アヒル料理店",
+		images: [
+			"/seoul/배나무골전경.jpeg",
+			"/seoul/오리요리.jpeg",
+			"/seoul/오리코스요리.jpeg",
+		],
+		imageDescriptions: {
+			ko: ["배나무골오리집 전경", "오리요리", "누군가의 오리코스요리"],
+			jp: ["ペナムゴル店舗外観", "アヒル料理", "コース料理の一例"],
+		},
+		location: "서울 서초구 마방로2길 12 보성빌딩 지하 1층",
+		locationJP: "ソウル市 瑞草区 馬房路2ギル 12 保成ビル地下1階",
+		link: "https://map.naver.com/p/entry/place/11679514?c=15.00,0,0,0,dh&placePath=/home",
+		city: "seoul" as const,
+	},
+	{
+		id: "18",
+		name: "서울 진대감 시청점",
+		nameJP: "ソウル チンデガム 市庁店",
+		description:
+			"차돌삼합 맛집. 프랜차이즈 식당이라 여기저기 있음. 차돌박이, 조개관자, 김치 삼합 요리.",
+		descriptionJP:
+			"チャドルサムハプ（薄切り牛バラ肉）の名店。フランチャイズ店なので、あちこちにあります。チャドルパギ（薄切り牛バラ肉）、ホタテ貝柱、キムチの3種類を一緒に食べる料理です。",
+		images: [
+			"/seoul/진대감1.jpeg",
+			"/seoul/진대감2.jpeg",
+			"/seoul/누군가의진대감.jpeg",
+		],
+		imageDescriptions: {
+			ko: ["차돌삼합", "차돌삼합구이", "누군가의 진대감"],
+			jp: ["チャドルサムハプ", "チャドルサムハプ焼き", "チンデガムの料理"],
+		},
+		location: "서울 중구 남대문로1길 57",
+		locationJP: "ソウル市 中区 南大門路1ギル 57",
+		link: "https://map.naver.com/p/search/%EC%A7%84%EB%8C%80%EA%B0%90/place/1504381175?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dpll",
+		city: "seoul" as const,
+	},
+	{
+		id: "19",
+		name: "서울 금돼지식당",
+		nameJP: "ソウル キンドジシックダン",
+		description: "돼지고기구이 맛집, 웨이팅이 길어요...",
+		descriptionJP: "豚肉の焼き肉屋さんです。待ち時間が長いです。",
+		images: [
+			"/seoul/금돼지식당전경.jpeg",
+			"/seoul/금돼지식당메뉴.jpeg",
+			"/seoul/누군가의삼겹살.jpeg",
+		],
+		imageDescriptions: {
+			ko: ["금돼지식당전경", "금돼지식당메뉴", "누군가의삼겹살"],
+			jp: [
+				"キンドジシックダン外観",
+				"キンドジシックダンメニュー",
+				"誰かの焼き肉",
+			],
+		},
+		location: "서울 중구 다산로 149",
+		locationJP: "ソウル市 中区 多山路 149",
+		link: "https://map.naver.com/p/entry/place/37869877?c=15.00,0,0,0,dh&placePath=/menu",
+		city: "seoul" as const,
+	},
+	{
+		id: "20",
+		name: "서울 화해당 여의도점",
+		nameJP: "ソウル ファヘダン 汝矣島店",
+		description: "간장게장 맛집",
+		descriptionJP: "カンジャンケジャン（カニの醤油漬け）の名店",
+		images: [
+			"/seoul/화해당전경.jpeg",
+			"/seoul/간장게장.jpeg",
+			"/seoul/누군가의간장게장.jpeg",
+		],
+		imageDescriptions: {
+			ko: ["화해당전경", "간장게장", "누군가의간장게장"],
+			jp: ["ファヘダン外観", "カンジャンケジャン", "誰かのカンジャンケジャン"],
+		},
+		location: "서울 영등포구 국회대로62길 15 광복회관 1층 3호",
+		locationJP: "ソウル市 永登浦区 国会大路62ギル 15 光復会館 1階 3号",
+		link: "https://map.naver.com/p/entry/place/35379094?c=15.00,0,0,0,dh&placePath=/home",
+		city: "seoul" as const,
+	},
 	// 더 많은 맛집 데이터를 추가할 수 있습니다
 ].sort((a, b) => {
 	return cityOrder.indexOf(a.city) - cityOrder.indexOf(b.city);
