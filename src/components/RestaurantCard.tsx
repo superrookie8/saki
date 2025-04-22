@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { Restaurant } from "@/data/restaurants";
-import { useRef, useState, MouseEvent, TouchEvent } from "react";
+import { useRef, useState, MouseEvent } from "react";
 
 interface RestaurantCardProps {
 	restaurant: Restaurant;
