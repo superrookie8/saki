@@ -299,7 +299,7 @@ export const restaurants: Restaurant[] = [
 		nameJP: "インチョン どこか",
 		description: "인천에는 소희가 있어요",
 		descriptionJP:
-			"インチョンにはソヒがいます。ソヒはカニの塩辛、エビの塩辛、サーモンの塩辛など発酵食品が好きです。",
+			"インチョンにはソヒさんがいます。ソヒさんはカニの醤油漬け、エビの醤油漬け、サーモンの醤油漬けなど、熟成させた海鮮料理が好きです。",
 		images: ["/incheon/소희1.jpg", "/incheon/소희2.jpg"],
 		imageDescriptions: {
 			ko: ["소희", "소희2"],
