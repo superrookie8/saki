@@ -81,7 +81,7 @@ export const restaurants: Restaurant[] = [
 			"生カルビの名店、味付けしていないカルビを生カルビと言います。味付けの味ではなく、お肉本来の味を楽しめます。",
 		images: [
 			"/busan/암소갈비.png",
-			"/busan/암소갈비집.jpeg",
+			"/busan/암소갈비전경.jpeg",
 			"/busan/생갈비.jpeg",
 		],
 		imageDescriptions: {
