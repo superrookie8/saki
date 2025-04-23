@@ -122,17 +122,17 @@ export default function RestaurantCard({ restaurant }: RestaurantCardProps) {
 			<div className="flex flex-col gap-2">
 				<div>
 					<h3 className="text-xl font-bold">{restaurant.name}</h3>
-					<p className="text-sm text-gray-600">{restaurant.nameJP}</p>
+					<p className="text-base text-gray-500">{restaurant.nameJP}</p>
 				</div>
 
 				<div>
 					<p className="text-sm">{restaurant.description}</p>
-					<p className="text-sm text-gray-600">{restaurant.descriptionJP}</p>
+					<p className="text-base text-gray-500">{restaurant.descriptionJP}</p>
 				</div>
 
 				<div>
 					<p className="text-sm">{restaurant.location}</p>
-					<p className="text-sm text-gray-600">{restaurant.locationJP}</p>
+					<p className="text-base text-gray-500">{restaurant.locationJP}</p>
 				</div>
 
 				<a
