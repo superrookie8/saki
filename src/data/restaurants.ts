@@ -488,6 +488,32 @@ export const restaurants: Restaurant[] = [
 		link: "https://map.naver.com/p/entry/place/11603911?c=15.00,0,0,0,dh&placePath=/home",
 		city: "busan" as const,
 	},
+	{
+		id: "23",
+		name: "서울 소문난성수감자탕",
+		nameJP: "ソウル ソムナン・ソンス・カムジャタン",
+		description:
+			"일본에선 맛볼수 없는 음식중 하나가 바로 감자탕. 돼지의 등뼈를 푹 삶아 먹는 매콤한 탕요리, 감자라는 고기 부위를 사용해서 감자탕이지만 실제 감자도 들어감, 깻잎과 들깨가루의 맛이 강함 ",
+		descriptionJP:
+			"日本では味わえない料理の一つがカムジャタン（豚背骨スープ）です。豚の背骨をじっくり煮込んだ辛めのスープ料理で、カムジャ（芋）という部位の肉を使うことからカムジャタンと呼ばれますが、実際のジャガイモも入っています。エゴマの葉とエゴマの粉末の風味が特徴的です。",
+		images: [
+			"/seoul/소문난성수감자탕전경.jpeg",
+			"/seoul/누군가의감자탕.jpeg",
+			"/seoul/누군가의감자탕2.jpeg",
+		],
+		imageDescriptions: {
+			ko: ["소문난성수감자탕전경", "누군가의 감자탕", "누군가의 감자탕"],
+			jp: [
+				"ソムナン・ソンス・カムジャタンの外観",
+				"カムジャタン",
+				"カムジャタン",
+			],
+		},
+		location: "서울 성동구 연무장길 45",
+		locationJP: "ソウル市 城東区 演武場ギル 45",
+		link: "https://map.naver.com/p/entry/place/11721256?c=15.00,0,0,0,dh",
+		city: "seoul" as const,
+	},
 	// 더 많은 맛집 데이터를 추가할 수 있습니다
 ].sort((a, b) => {
 	return cityOrder.indexOf(a.city) - cityOrder.indexOf(b.city);
