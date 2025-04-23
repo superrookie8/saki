@@ -444,6 +444,50 @@ export const restaurants: Restaurant[] = [
 		link: "https://map.naver.com/p/entry/place/35379094?c=15.00,0,0,0,dh&placePath=/home",
 		city: "seoul" as const,
 	},
+	{
+		id: "21",
+		name: "부산 육화목",
+		nameJP: "釜山 ユクファモク",
+		description: "소고기도 돼지고기도 다 구워먹는 곳",
+		descriptionJP: "牛肉も豚肉も楽しめる焼肉店です。",
+		images: [
+			"/busan/육화목전경.jpeg",
+			"/busan/육화목고기.jpeg",
+			"/busan/누군가의육화목.jpeg",
+		],
+		imageDescriptions: {
+			ko: ["육화목 전경", "육화목 고기", "누군가의 고기구이"],
+			jp: ["ユクファモク外観", "ユクファモクの肉", "誰かの焼肉"],
+		},
+		location:
+			"부산 해운대구 좌동순환로8번길 78 해운대메트로하이츠 상가 1층 7호",
+		locationJP:
+			"釜山市 海雲台区 左洞循環路8番ギル 78 海雲台メトロハイツ商街 1階 7号",
+		link: "https://map.naver.com/p/entry/place/36219995?c=15.00,0,0,0,dh&placePath=/home",
+		city: "busan" as const,
+	},
+	{
+		id: "22",
+		name: "부산 광안리 언양불고기부산집",
+		nameJP: "釜山 広安里 蔚陽プルコギ釜山店",
+		description:
+			"언양식 불고기 맛집, 얇게썬 소고기에 달달한 양념이 특징인 언양식 불고기",
+		descriptionJP:
+			"蔚陽式プルコギの名店、薄切りの牛肉に甘めのタレが特徴の蔚陽式プルコギです。",
+		images: [
+			"/busan/광안리언양불고기부산집.jpeg",
+			"/busan/누군가의언양불고기.jpeg",
+			"/busan/돌솥밥.jpeg",
+		],
+		imageDescriptions: {
+			ko: ["광안리언양불고기부산집전경", "언양불고기", "누군가의 돌솥밥"],
+			jp: ["蔚陽プルコギ釜山店外観", "蔚陽プルコギ", "石釜ご飯"],
+		},
+		location: "부산 수영구 남천바다로 32",
+		locationJP: "釜山市 水営区 南川海路 32",
+		link: "https://map.naver.com/p/entry/place/11603911?c=15.00,0,0,0,dh&placePath=/home",
+		city: "busan" as const,
+	},
 	// 더 많은 맛집 데이터를 추가할 수 있습니다
 ].sort((a, b) => {
 	return cityOrder.indexOf(a.city) - cityOrder.indexOf(b.city);
