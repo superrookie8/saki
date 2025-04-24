@@ -26,7 +26,7 @@ export const restaurants: Restaurant[] = [
 		nameJP: "クァンジャン市場",
 		description: "전통 시장에서 즐기는 다양한 한국 음식",
 		descriptionJP:
-			"伝統市場で楽しむ様々な韓国料理、ビンデトッは肉生地を油で焼いたもので、クァベギはドーナツです。",
+			"伝統市場で楽しむ様々な韓国料理、ビンデトッは緑豆の生地に具材を混ぜて油で焼いたチヂミで、クァベギはドーナツです。",
 		images: [
 			"/seoul/광장시장.jpeg",
 			"/seoul/순희네빈대떡.jpeg",
